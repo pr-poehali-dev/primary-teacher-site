@@ -11,16 +11,16 @@ const HeroSection = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1 space-y-6">
             <h1 className="text-4xl md:text-5xl font-display font-bold text-foreground leading-tight">
-              Открываем мир <span className="text-primary">знаний</span> вместе!
+              Добро пожаловать в мир <span className="text-primary">начального образования</span>!
             </h1>
             <p className="text-lg text-muted-foreground">
-              Добро пожаловать на сайт учителя начальных классов Анны Беловой. 
-              Здесь вы найдете полезные материалы для обучения, развития 
-              и творчества ваших детей.
+              Здравствуйте! Я Соколова Полина Александровна, учитель начальных классов. 
+              На этом сайте вы найдете полезные материалы для учеников и родителей, 
+              а также информацию о моей педагогической деятельности.
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
               <Button size="lg" className="rounded-full">
-                Материалы для уроков
+                Методические материалы
               </Button>
               <Button variant="outline" size="lg" className="rounded-full">
                 Для родителей
@@ -33,7 +33,7 @@ const HeroSection = () => {
               {/* Decorative elements */}
               <div className="absolute top-[15%] right-[5%] w-12 h-12 bg-soft-yellow rounded-full animate-float z-10" 
                    style={{animationDelay: "0.2s"}}></div>
-              <div className="absolute bottom-[10%] left-[15%] w-16 h-16 bg-lavender rounded-full animate-float"
+              <div className="absolute bottom-[10%] left-[15%] w-16 h-16 bg-soft-pink rounded-full animate-float"
                    style={{animationDelay: "0.5s"}}></div>
               <div className="absolute top-[60%] right-[10%] w-10 h-10 bg-soft-orange rounded-full animate-float"
                    style={{animationDelay: "0.7s"}}></div>
@@ -42,7 +42,7 @@ const HeroSection = () => {
               <div className="absolute inset-0 m-auto w-[90%] h-[90%] bg-mint blob-shape animate-float shadow-lg"
                    style={{animationDelay: "0s"}}>
                 <img 
-                  src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                  src="https://images.unsplash.com/photo-1510832198440-a52376950479?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
                   alt="Учитель с детьми"
                   className="w-full h-full object-cover rounded-[inherit]"
                 />

@@ -1,3 +1,4 @@
+
 import { Clock, Calendar, BookOpen, MessageSquare } from "lucide-react";
 import {
   Accordion,
@@ -32,13 +33,13 @@ const ParentsSection = () => {
             <Card className="bg-white border-none shadow-md">
               <CardContent className="p-6 space-y-4">
                 <div className="flex items-start space-x-4">
-                  <div className="w-10 h-10 rounded-full bg-lavender flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-soft-pink flex items-center justify-center flex-shrink-0">
                     <Clock className="h-5 w-5 text-primary" />
                   </div>
                   <div>
                     <h4 className="font-medium text-lg">Расписание занятий</h4>
                     <p className="text-muted-foreground mb-2">
-                      3 «А» класс, первая смена
+                      2 «Б» класс, первая смена
                     </p>
                     <div className="grid grid-cols-2 gap-2 text-sm">
                       <div>
@@ -47,7 +48,7 @@ const ParentsSection = () => {
                       </div>
                       <div>
                         <p className="font-medium">Внеурочные занятия</p>
-                        <p>Вторник, Четверг 14:00 - 15:30</p>
+                        <p>Среда, Пятница 14:00 - 15:30</p>
                       </div>
                     </div>
                   </div>
@@ -62,16 +63,16 @@ const ParentsSection = () => {
                       Родительские собрания
                     </h4>
                     <p className="text-muted-foreground mb-2">
-                      Каждая третья среда месяца
+                      Каждая последняя пятница месяца
                     </p>
                     <p className="text-sm">
-                      Ближайшее собрание: 15 мая 2025 г. в 18:00, кабинет 212
+                      Ближайшее собрание: 25 мая 2025 г. в 18:30, кабинет 105
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-10 h-10 rounded-full bg-soft-pink flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-soft-blue flex items-center justify-center flex-shrink-0">
                     <MessageSquare className="h-5 w-5 text-primary" />
                   </div>
                   <div>
@@ -82,13 +83,13 @@ const ParentsSection = () => {
                       По предварительной записи
                     </p>
                     <p className="text-sm">
-                      Вторник: 16:00 - 17:30, Четверг: 16:00 - 17:30
+                      Понедельник: 14:30 - 15:30, Четверг: 14:30 - 15:30
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-10 h-10 rounded-full bg-soft-blue flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-mint flex items-center justify-center flex-shrink-0">
                     <BookOpen className="h-5 w-5 text-primary" />
                   </div>
                   <div>
@@ -97,7 +98,7 @@ const ParentsSection = () => {
                       Список используемой литературы
                     </p>
                     <p className="text-sm">
-                      УМК «Школа России», дополнительные материалы в разделе
+                      УМК «Перспектива», дополнительные материалы в разделе
                       «Методические материалы»
                     </p>
                   </div>
@@ -118,72 +119,47 @@ const ParentsSection = () => {
               className="bg-white shadow-md rounded-lg"
             >
               <AccordionItem value="item-1">
-                <AccordionTrigger className="px-4 py-4 hover:no-underline hover:bg-lavender/10">
-                  Как подготовить ребенка к первому классу?
+                <AccordionTrigger className="px-4 py-4 hover:no-underline hover:bg-soft-pink/10">
+                  Как помочь ребенку адаптироваться к школе?
                 </AccordionTrigger>
                 <AccordionContent className="px-4 pb-4 pt-1">
-                  Важно развивать усидчивость, внимание и мелкую моторику.
-                  Рекомендую регулярно читать с ребенком, играть в настольные
-                  игры, рисовать. Также полезно приучать к режиму дня, близкому
-                  к школьному. Не фокусируйтесь только на знаниях – социальные
-                  навыки и эмоциональная готовность не менее важны.
+                  Создайте четкий распорядок дня, включающий достаточный сон и время для выполнения домашних заданий. Обсуждайте школьные события, помогайте организовать рабочее место. Важно хвалить за усилия, а не только за результат. Если заметили тревожные признаки, обязательно обсудите их со мной.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-2">
-                <AccordionTrigger className="px-4 py-4 hover:no-underline hover:bg-lavender/10">
-                  Что делать, если ребенок не хочет делать домашнее задание?
+                <AccordionTrigger className="px-4 py-4 hover:no-underline hover:bg-soft-pink/10">
+                  Как организовать выполнение домашних заданий?
                 </AccordionTrigger>
                 <AccordionContent className="px-4 pb-4 pt-1">
-                  Создайте комфортную атмосферу для выполнения заданий:
-                  организуйте рабочее место, установите регулярное время для
-                  занятий. Разбивайте задания на небольшие части с перерывами.
-                  Хвалите за усилия и прогресс, а не только за результат. Если
-                  проблема сохраняется, обсудите ситуацию с учителем – возможно,
-                  нужен индивидуальный подход.
+                  Выделите спокойное место без отвлекающих факторов. Установите регулярное время для занятий, лучше через 1-1.5 часа после школы. Разбивайте задания на небольшие части с короткими перерывами. Поощряйте самостоятельность, но будьте готовы помочь. Проверяйте выполнение, но не делайте задания за ребенка.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-3">
-                <AccordionTrigger className="px-4 py-4 hover:no-underline hover:bg-lavender/10">
-                  Как помочь ребенку, если он отстает по некоторым предметам?
+                <AccordionTrigger className="px-4 py-4 hover:no-underline hover:bg-soft-pink/10">
+                  Что делать, если ребенок не хочет читать?
                 </AccordionTrigger>
                 <AccordionContent className="px-4 pb-4 pt-1">
-                  Первым шагом обсудите ситуацию с учителем, чтобы понять
-                  конкретные трудности. Выделите дополнительное время для
-                  занятий проблемными предметами. Используйте различные подходы
-                  к обучению – визуальные материалы, игры, практические задания.
-                  При необходимости рассмотрите возможность дополнительных
-                  занятий или консультаций со специалистами.
+                  Начните с коротких интересных текстов по темам, которые нравятся ребенку. Читайте вместе, по очереди. Используйте различные форматы: бумажные книги, аудиокниги, интерактивные приложения. Создайте уютную атмосферу для чтения. Обсуждайте прочитанное, задавайте вопросы. Будьте примером — пусть ребенок видит, что вы тоже читаете.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-4">
-                <AccordionTrigger className="px-4 py-4 hover:no-underline hover:bg-lavender/10">
+                <AccordionTrigger className="px-4 py-4 hover:no-underline hover:bg-soft-pink/10">
                   Сколько времени ребенок должен тратить на домашние задания?
                 </AccordionTrigger>
                 <AccordionContent className="px-4 pb-4 pt-1">
-                  Согласно санитарным нормам, рекомендуемое время выполнения
-                  домашних заданий: 1 класс — без домашних заданий, 2-3 классы —
-                  до 1,5 часов, 4 класс — до 2 часов. Важно учитывать
-                  индивидуальные особенности ребенка и делать небольшие перерывы
-                  каждые 20-30 минут для поддержания концентрации внимания.
+                  Согласно санитарным нормам, во 2 классе оптимальное время выполнения домашних заданий — до 1,5 часов. Важно делать перерывы каждые 20-25 минут для поддержания концентрации. Если ребенок регулярно тратит значительно больше времени, обсудите это со мной — возможно, нужна дополнительная помощь или корректировка подхода.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-5">
-                <AccordionTrigger className="px-4 py-4 hover:no-underline hover:bg-lavender/10">
-                  Какие навыки самые важные для успешной учебы в начальной
-                  школе?
+                <AccordionTrigger className="px-4 py-4 hover:no-underline hover:bg-soft-pink/10">
+                  Как мотивировать ребенка к учебе?
                 </AccordionTrigger>
                 <AccordionContent className="px-4 pb-4 pt-1">
-                  Ключевые навыки включают: умение слушать и следовать
-                  инструкциям, усидчивость, самоорганизацию, развитую мелкую
-                  моторику, базовые навыки коммуникации и работы в коллективе.
-                  Также важна любознательность и позитивное отношение к
-                  обучению. Навыки чтения и письма развиваются в процессе
-                  обучения, но предварительное знакомство с буквами и цифрами
-                  может быть полезным.
+                  Показывайте практическое применение знаний в повседневной жизни. Отмечайте даже небольшие успехи. Поддерживайте интерес через дополнительные материалы: видео, игры, экскурсии по теме. Избегайте сравнения с другими детьми. Учитывайте индивидуальные особенности вашего ребенка и создавайте позитивную атмосферу вокруг процесса обучения.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

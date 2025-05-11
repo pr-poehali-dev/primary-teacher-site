@@ -10,13 +10,13 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="h-10 w-10 rounded-full bg-white flex items-center justify-center">
-                <span className="text-primary font-bold text-lg">АБ</span>
+                <span className="text-primary font-bold text-lg">ПС</span>
               </div>
-              <h2 className="text-xl font-bold">Анна Белова</h2>
+              <h2 className="text-xl font-bold">Соколова П.А.</h2>
             </div>
             <p className="text-white/80">
-              Учитель начальных классов с многолетним опытом. 
-              Моя цель — помочь каждому ребенку полюбить учиться и раскрыть свой потенциал.
+              Учитель начальных классов, открывающий детям мир знаний и творчества. 
+              Моя цель — воспитать любознательных, уверенных в себе и творческих личностей.
             </p>
           </div>
           
@@ -43,8 +43,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <Mail className="h-5 w-5 text-white/60" />
-                <a href="mailto:anna.belova@school.ru" className="text-white/80 hover:text-white transition-colors">
-                  anna.belova@school.ru
+                <a href="mailto:sokolova.pa@school.ru" className="text-white/80 hover:text-white transition-colors">
+                  sokolova.pa@school.ru
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -56,7 +56,7 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 text-white/60 mt-1" />
                 <span className="text-white/80">
-                  Школа №123, г. Москва, ул. Примерная, д. 45
+                  Школа №234, г. Москва, ул. Школьная, д. 17
                 </span>
               </li>
             </ul>
@@ -65,7 +65,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Подписаться на новости</h3>
             <p className="text-white/80 mb-4">
-              Получайте информацию о новых материалах и мероприятиях
+              Получайте информацию о новых материалах и мероприятиях класса
             </p>
             <div className="space-y-3">
               <input 
@@ -82,7 +82,7 @@ const Footer = () => {
         
         <div className="border-t border-white/20 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-white/60 text-sm mb-4 sm:mb-0">
-            © {new Date().getFullYear()} Анна Белова. Все права защищены.
+            © {new Date().getFullYear()} Соколова Полина Александровна. Все права защищены.
           </p>
           <div className="flex space-x-4">
             <a href="#" className="text-white/60 hover:text-white transition-colors">

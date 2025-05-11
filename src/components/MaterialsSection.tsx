@@ -8,8 +8,8 @@ const MaterialsSection = () => {
   const materials = [
     {
       id: 1,
-      title: "Презентация «Времена года»",
-      description: "Интерактивная презентация для 1-2 классов с яркими иллюстрациями и заданиями",
+      title: "Презентация «Мир вокруг нас»",
+      description: "Интерактивная презентация для 1-2 классов с заданиями на познание окружающего мира",
       category: "презентация",
       subject: "Окружающий мир",
       icon: <BookOpen className="h-5 w-5" />,
@@ -17,21 +17,21 @@ const MaterialsSection = () => {
     },
     {
       id: 2,
-      title: "Рабочие листы по математике",
-      description: "Задания на сложение и вычитание в пределах 20 с иллюстрациями",
-      category: "рабочие листы",
-      subject: "Математика",
+      title: "Карточки по русскому языку",
+      description: "Набор заданий для отработки правил правописания и пунктуации",
+      category: "карточки",
+      subject: "Русский язык",
       icon: <FileText className="h-5 w-5" />,
       color: "bg-mint",
     },
     {
       id: 3,
-      title: "Прописи для отработки каллиграфии",
-      description: "Прописи для первоклассников с поэтапным формированием навыка письма",
-      category: "прописи",
-      subject: "Русский язык",
+      title: "Рабочая тетрадь «Весёлый счёт»",
+      description: "Авторская рабочая тетрадь для изучения основ арифметики в игровой форме",
+      category: "рабочая тетрадь",
+      subject: "Математика",
       icon: <BookText className="h-5 w-5" />,
-      color: "bg-lavender",
+      color: "bg-soft-pink",
     },
   ];
 
@@ -63,7 +63,7 @@ const MaterialsSection = () => {
                 <div className="flex items-center text-sm text-muted-foreground">
                   <span className="capitalize">{material.category}</span>
                   <span className="inline-block mx-2">•</span>
-                  <span>PDF, 1.2 MB</span>
+                  <span>PDF, 1.5 MB</span>
                 </div>
               </CardContent>
               <CardFooter className="pt-4 pb-6">
